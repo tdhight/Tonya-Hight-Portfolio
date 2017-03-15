@@ -1,0 +1,63 @@
+#landing-page {
+	height: 600px;
+	background: url(../images/stars-918777_1920.jpg) no-repeat center center;
+	background-size: cover;
+}
+h1 {
+	color: #c0c0c0;
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	font-size: 75px;
+	padding-top: 220px;
+}
+h2 {
+	color: #c0c0c0;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+	padding-top: 15px;
+}
+p {
+	color: #c0c0c0;
+	text-align: center;
+}
+#about {
+	color: #c0c0c0;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	padding-top: 40px;
+}
+.scroll {
+	color: #c0c0c0;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	padding-top: 100px;
+}
+.scroll-arrow {
+	color: #c0c0c0;
+	text-align: center;
+	font-size: 24px;
+}
+#carousel-page {
+	background-color: #c0c0c0;
+	height: 600px;
+}
+header {
+	color: #003366;
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	font-size: 25px;
+	padding-top: 20px;
+}
+.page-name {
+	color: #003366;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	font-weight: 800;
+	padding: 40px 0 0 75px;
+}
+.blue-type {
+	color: #003366;
+}
