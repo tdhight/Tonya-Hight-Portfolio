@@ -29,13 +29,16 @@ p {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	padding-top: 40px;
+	text-decoration: none;
+	cursor: pointer;
 }
 .scroll {
+	text-decoration: none;
 	color: #c0c0c0;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
-	padding-top: 100px;
+	padding-top: 200px;
 }
 .scroll-arrow {
 	color: #c0c0c0;
@@ -50,8 +53,8 @@ header {
 	color: #003366;
 	text-align: center;
 	font-family: 'Russo One', sans-serif;
-	font-size: 25px;
-	padding-top: 20px;
+	font-size: 35px;
+	padding-top: 40px;
 	display: none;
 }
 .page-name {
@@ -64,6 +67,7 @@ header {
 }
 .blue-type {
 	color: #003366;
+	padding-top: 100px;
 }
 .blue-scroll-arrow {
 	color: #003366;
@@ -111,10 +115,93 @@ header {
 	color: #003366;
 	padding: 60px 35px;
 }
-#about-page h3 {
+/*#about-page h3 {
 	color: #003366;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	padding-top: 30px;
+}*/
+a {
+	text-decoration: none;
+	color: #003366;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	padding-top: 30px;
+	cursor: pointer;
+}
+#links {
+	position: absolute;
+	top: 440px;
+	left: 50%; 
+	transform: translateX(-50%);
+}
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+}
+.flex-child {
+	margin: 20px;
+    flex: 0 0 600px;
+    height: 400px;
+}
+@media only screen  and (min-width : 1224px) {
+#landing-page {
+	height: 850px;
+}
+h1 {
+	font-size: 105px;
+	padding-top: 250px;
+	padding-bottom: 35px;
+}
+h2 {
+	font-size: 35px;
+	padding-top: 25px;
+}
+#carousel-page {
+	height: 800px;
+}
+header {
+	display: block;
+}
+.page-name {
+	font-size: 45px;
+	padding: 80px 0 0 0;
+}
+.page-name {
+	font-size: 45px;
+	padding: 80px 0 0 0;
+}
+#other-creations .page-name {
+	font-size: 45px;
+	padding: 30px 0 20px 0;
+}
+.fade {
+	margin: 50px auto;
+}
+.flex-container img {
+	width: 400px;
+}
+#about-page {
+	height: 850px;
+}
+#links {
+	top: 600px;
+}
+.flex-child {
+	margin: 20px;
+    flex: 0 0 400px;
+    height: 300px;
+}
+#carousel-page .blue-type {
+	padding-top: 60px;
+}
+#other-creations {
+	height: 850px;
+}
+#other-creations .blue-type {
+	padding-top: 1px;
+}
 }
