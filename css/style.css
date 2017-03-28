@@ -49,14 +49,14 @@ p {
 	background-color: #c0c0c0;
 	height: 700px;
 }
-header {
+/*header {
 	color: #003366;
 	text-align: center;
 	font-family: 'Russo One', sans-serif;
 	font-size: 35px;
 	padding-top: 40px;
 	display: none;
-}
+}*/
 .page-name {
 	color: #003366;
 	font-family: 'Ubuntu', sans-serif;
@@ -115,13 +115,6 @@ header {
 	color: #003366;
 	padding: 60px 35px;
 }
-/*#about-page h3 {
-	color: #003366;
-	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 18px;
-	padding-top: 30px;
-}*/
 a {
 	text-decoration: none;
 	color: #003366;
@@ -147,6 +140,9 @@ a {
     flex: 0 0 600px;
     height: 400px;
 }
+#landing-page h3 a {
+	color: #c0c0c0;
+}
 @media only screen  and (min-width : 1224px) {
 #landing-page {
 	height: 850px;
@@ -163,9 +159,9 @@ h2 {
 #carousel-page {
 	height: 800px;
 }
-header {
+/*header {
 	display: block;
-}
+}*/
 .page-name {
 	font-size: 45px;
 	padding: 80px 0 0 0;
@@ -203,5 +199,23 @@ header {
 }
 #other-creations .blue-type {
 	padding-top: 1px;
+}	
+#about-page h2 {
+	padding: 25px 120px 100px 120px;
 }
+.enlarge-top:hover {
+	transform:scale(2,2);
+	transform-origin:0 0;
+}
+.enlarge-top-left:hover {
+	transform:scale(2,2);
+	transform-origin:100% 0;
+}
+.enlarge-bottom:hover {
+	transform:scale(2,2);
+	transform-origin:0 100%;
+}
+.enlarge-bottom-left:hover {
+	transform:scale(2,2);
+	transform-origin:100% 100%;
 }
