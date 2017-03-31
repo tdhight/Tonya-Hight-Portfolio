@@ -4,7 +4,6 @@
 	background-size: cover;
 	position: relative;
 }
-
 h1 {
 	color: #c0c0c0;
 	font-family: 'Russo One', sans-serif;
@@ -125,9 +124,6 @@ a {
 #landing-page h3 a {
 	color: #c0c0c0;
 }
-.padding-none {
-	padding: 0;
-}
 @media only screen  and (min-width : 1000px) {
 #landing-page {	
 	height: 825px;
@@ -140,6 +136,9 @@ h1 {
 h2 {
 	font-size: 35px;
 	padding-top: 25px;
+}
+.padding-none {
+	padding: 0;
 }
 .scroll {
 	padding-top: 100px;
