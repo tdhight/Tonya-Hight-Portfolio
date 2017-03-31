@@ -125,13 +125,13 @@ a {
 #landing-page h3 a {
 	color: #c0c0c0;
 }
-@media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 1000px) {
 #landing-page {
-	height: 850px;
+	height: 700px;
 }
 h1 {
 	font-size: 105px;
-	padding-top: 250px;
+	padding-top: 225px;
 	padding-bottom: 35px;
 }
 h2 {
@@ -162,7 +162,7 @@ h2 {
 	top: 600px;
 }
 .flex-child {
-	margin: 20px;
+	margin: 20px 10px 0px 10px;
     flex: 0 0 400px;
     height: 300px;
 }
