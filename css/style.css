@@ -168,7 +168,7 @@ h2 {
 	top: 600px;
 }
 .flex-child {
-	margin: 20px 10px 0px 10px;
+	margin: 10px 10px 0px 10px;
     flex: 0 0 400px;
     height: 300px;
 }
