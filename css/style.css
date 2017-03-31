@@ -148,10 +148,6 @@ h2 {
 	font-size: 45px;
 	padding: 80px 0 0 0;
 }
-#other-creations .page-name {
-	font-size: 45px;
-	padding: 20px 0 10px 0;
-}
 .fade {
 	margin: 50px auto;
 }
@@ -177,6 +173,10 @@ h2 {
 }
 #other-creations {
 	height: 850px;
+}
+#other-creations .page-name {
+	font-size: 45px;
+	padding: 20px 0 10px 0;
 }
 /*#other-creations .blue-type {
 	padding-top: 1px;
