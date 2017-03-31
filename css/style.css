@@ -39,6 +39,14 @@ p {
 	font-size: 18px;
 	padding-top: 200px;
 }
+.scroll2 {
+	text-decoration: none;
+	color: #c0c0c0;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	padding-top: 200px;
+}
 .scroll-arrow {
 	color: #c0c0c0;
 	text-align: center;
@@ -137,11 +145,11 @@ h2 {
 	font-size: 35px;
 	padding-top: 25px;
 }
-.padding-none {
-	padding: 0;
-}
 .scroll {
 	padding-top: 100px;
+}
+.scroll2 {
+	padding-top: 0px;
 }
 #carousel-page {
 	height: 775px;
