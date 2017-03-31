@@ -127,7 +127,7 @@ a {
 }
 @media only screen  and (min-width : 1000px) {
 #landing-page {
-	height: 800px;
+	height: 825px;
 }
 h1 {
 	font-size: 105px;
@@ -139,7 +139,7 @@ h2 {
 	padding-top: 25px;
 }
 .scroll {
-	padding-top: 170px;
+	padding-top: 100px;
 }
 #carousel-page {
 	height: 800px;
