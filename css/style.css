@@ -152,6 +152,9 @@ h2 {
 .fade {
 	margin: 50px auto;
 }
+.flex-container {
+	align-content: space-around;
+}
 .flex-container img {
 	width: 400px;
 }
