@@ -138,6 +138,9 @@ h2 {
 	font-size: 35px;
 	padding-top: 25px;
 }
+.scroll {
+	padding-top: 170px;
+}
 #carousel-page {
 	height: 800px;
 }
