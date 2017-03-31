@@ -125,6 +125,9 @@ a {
 #landing-page h3 a {
 	color: #c0c0c0;
 }
+.padding-none {
+	padding: none;
+}
 @media only screen  and (min-width : 1000px) {
 #landing-page {	
 	height: 825px;
