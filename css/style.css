@@ -173,7 +173,6 @@ h2 {
 	top: 600px;
 }
 .flex-child {
-/*	margin: 10px 10px 0px 10px;*/
     flex: 0 0 400px;
     height: 300px;
 }
@@ -189,9 +188,6 @@ h2 {
 #other-creations h3 a {
 	padding-top: 0;
 }
-/*#other-creations .blue-type {
-	padding-top: 1px;
-}	*/
 #about-page h2 {
 	padding: 25px 120px 100px 120px;
 }
